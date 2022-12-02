@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+main {
+    display: flex;
+    max-width: 780px;
+    margin: auto;
+   }
+.menu li:hover {
+    position: relative;
+    bottom: 3px;
+    left: 3px;
+    color: #833ae0;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+    
+  }
+  .menu{
+    display: flex;
+    background-color: #F5F5F6;
+    height: 80px;
+    align-items: center;
+    margin: 0;
+  }
+  .menuimg{
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+  }
+  .firstbtn{
+    margin-left:180px ;
+    background-color: white;
+    border-color: white;
+    border-radius: 2px;
+    width: 90px;
+    height: 35px;
+  }
+  h{
+    font-size: 40px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .maindiv{
+    margin-top: 50px;
+    
+   
+  }
+  .btn2{
+    padding: 0 20px;
+    margin: 0;
+    height: 25px;
+    border-color:#E5E5E5;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    margin-right: -6px;
+    border-radius: 3px;
+  }
+  .btn2:hover {
+    position: relative;
+    bottom: 1px;
+    left: 2px;
+    color: #ffffff;
+    background-color: #833ae0;
+    
+  }
+  .valyuta{
+    margin-left: 180px;
+    margin-top: 50px;
+    
+  }
+  .empty{
+    display: border-box;
+     width: 320px;
+     height: 150px;
+     margin-top:10px ;
+     margin-left: 1px;
+     border: 1px solid#E5E5E5
+  }
+
+  .valyuta2{
+    margin-left: 180px;
+    margin-top: 50px;
+    
+  }
+  .currencyofcountry{
+    display: flex;
+  }
+  .small{
+    margin-bottom: 10px;
+    color: rgb(175, 173, 173);
+  }
+  input{
+    height: 100px;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    width: 310px;
+}
